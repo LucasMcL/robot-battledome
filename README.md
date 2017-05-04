@@ -1,5 +1,5 @@
 # Robot Battledome
-### Lucas McLaughlin
+## Lucas McLaughlin
 
 See it live [here](https://lucasmcl.github.io/robot-battledome)!
 
