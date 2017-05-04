@@ -17,8 +17,8 @@ html {
 
 body {
 	height: 100%;
-	background-image: url('../img/graphy.png');
-	/*background-image: url('../img/school-background.jpg');
+	background-image: url('..img/graphy.png');
+	/*background-image: url('..img/school-background.jpg');
 	background-size: cover;
 	background-position: center;*/
 }

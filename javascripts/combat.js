@@ -70,22 +70,22 @@ function generatePlayer() {
 	// Assign name, load picture into battlefield
 	switch(player1.model) {
 		case 'Boulder':
-			$('#player1 img').attr('src', "../img/models/boulder.png")
+			$('#player1 img').attr('src', "..img/models/boulder.png")
 			break
 		case 'Pebble':
-			$('#player1 img').attr('src', "../img/models/pebble.png")
+			$('#player1 img').attr('src', "..img/models/pebble.png")
 			break
 		case 'Scroll':
-			$('#player1 img').attr('src', "../img/models/scroll.png")
+			$('#player1 img').attr('src', "..img/models/scroll.png")
 			break
 		case 'Index Card':
-			$('#player1 img').attr('src', "../img/models/index-card.png")
+			$('#player1 img').attr('src', "..img/models/index-card.png")
 			break
 		case 'Garden Scissors':
-			$('#player1 img').attr('src', "../img/models/garden-scissors.png")
+			$('#player1 img').attr('src', "..img/models/garden-scissors.png")
 			break
 		case 'Craft Scissors':
-			$('#player1 img').attr('src', "../img/models/craft-scissors.png")
+			$('#player1 img').attr('src', "..img/models/craft-scissors.png")
 			break
 	}
 	// Assign name based on type
@@ -143,22 +143,22 @@ function generateEnemy() {
 	// Assign name, load picture into battlefield
 	switch(enemy.model) {
 		case 'Boulder':
-			$('#enemy img').attr('src', "../img/models/boulder.png")
+			$('#enemy img').attr('src', "..img/models/boulder.png")
 			break
 		case 'Pebble':
-			$('#enemy img').attr('src', "../img/models/pebble.png")
+			$('#enemy img').attr('src', "..img/models/pebble.png")
 			break
 		case 'Scroll':
-			$('#enemy img').attr('src', "../img/models/scroll.png")
+			$('#enemy img').attr('src', "..img/models/scroll.png")
 			break
 		case 'Index Card':
-			$('#enemy img').attr('src', "../img/models/index-card.png")
+			$('#enemy img').attr('src', "..img/models/index-card.png")
 			break
 		case 'Garden Scissors':
-			$('#enemy img').attr('src', "../img/models/garden-scissors.png")
+			$('#enemy img').attr('src', "..img/models/garden-scissors.png")
 			break
 		case 'Craft Scissors':
-			$('#enemy img').attr('src', "../img/models/craft-scissors.png")
+			$('#enemy img').attr('src', "..img/models/craft-scissors.png")
 			break
 	}
 	// Assign name based on type

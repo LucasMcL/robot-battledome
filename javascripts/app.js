@@ -92,37 +92,37 @@ function assignPlayerRobot() {
 	switch(model) {
 		case 'boulder':
 			player1 = new Battledome.Robot.Boulder()
-			$('#player1-selection img').attr('src', '/img/models/boulder.png')
-			$('#player1 img').attr('src', '/img/models/boulder.png')
+			$('#player1-selection img').attr('src', 'img/models/boulder.png')
+			$('#player1 img').attr('src', 'img/models/boulder.png')
 			break
 		case 'pebble':
 			player1 = new Battledome.Robot.Pebble()
-			$('#player1-selection img').attr('src', '/img/models/pebble.png')
-			$('#player1 img').attr('src', '/img/models/pebble.png')
+			$('#player1-selection img').attr('src', 'img/models/pebble.png')
+			$('#player1 img').attr('src', 'img/models/pebble.png')
 			break
 		case 'scroll':
 			player1 = new Battledome.Robot.Scroll()
-			$('#player1-selection img').attr('src', '/img/models/scroll.png')
-			$('#player1 img').attr('src', '/img/models/scroll.png')
+			$('#player1-selection img').attr('src', 'img/models/scroll.png')
+			$('#player1 img').attr('src', 'img/models/scroll.png')
 			break
 		case 'index-card':
 			player1 = new Battledome.Robot.IndexCard()
-			$('#player1-selection img').attr('src', '/img/models/index-card.png')
-			$('#player1 img').attr('src', '/img/models/index-card.png')
+			$('#player1-selection img').attr('src', 'img/models/index-card.png')
+			$('#player1 img').attr('src', 'img/models/index-card.png')
 			break
 		case 'garden-scissors':
 			player1 = new Battledome.Robot.GardenScissors()
-			$('#player1-selection img').attr('src', '/img/models/garden-scissors.png')
-			$('#player1 img').attr('src', '/img/models/garden-scissors.png')
+			$('#player1-selection img').attr('src', 'img/models/garden-scissors.png')
+			$('#player1 img').attr('src', 'img/models/garden-scissors.png')
 			break
 		case 'craft-scissors':
 			player1 = new Battledome.Robot.CraftScissors()
-			$('#player1-selection img').attr('src', '/img/models/craft-scissors.png')
-			$('#player1 img').attr('src', '/img/models/craft-scissors.png')
+			$('#player1-selection img').attr('src', 'img/models/craft-scissors.png')
+			$('#player1 img').attr('src', 'img/models/craft-scissors.png')
 			break
 		case 'random':
 			player1 = {}
-			$('#player1-selection img').attr('src', '/img/question-mark.png')
+			$('#player1-selection img').attr('src', 'img/question-mark.png')
 			break
 	}
 	loadPlayerStats()
@@ -160,37 +160,37 @@ function assignEnemyRobot() {
 	switch(model) {
 		case 'boulder':
 			enemy = new Battledome.Robot.Boulder()
-			$('#enemy-selection img').attr('src', '/img/models/boulder.png')
-			$('#enemy img').attr('src', '/img/models/boulder.png')
+			$('#enemy-selection img').attr('src', 'img/models/boulder.png')
+			$('#enemy img').attr('src', 'img/models/boulder.png')
 			break
 		case 'pebble':
 			enemy = new Battledome.Robot.Pebble()
-			$('#enemy-selection img').attr('src', '/img/models/pebble.png')
-			$('#enemy img').attr('src', '/img/models/pebble.png')
+			$('#enemy-selection img').attr('src', 'img/models/pebble.png')
+			$('#enemy img').attr('src', 'img/models/pebble.png')
 			break
 		case 'scroll':
 			enemy = new Battledome.Robot.Scroll()
-			$('#enemy-selection img').attr('src', '/img/models/scroll.png')
-			$('#enemy img').attr('src', '/img/models/scroll.png')
+			$('#enemy-selection img').attr('src', 'img/models/scroll.png')
+			$('#enemy img').attr('src', 'img/models/scroll.png')
 			break
 		case 'index-card':
 			enemy = new Battledome.Robot.IndexCard()
-			$('#enemy-selection img').attr('src', '/img/models/index-card.png')
-			$('#enemy img').attr('src', '/img/models/index-card.png')
+			$('#enemy-selection img').attr('src', 'img/models/index-card.png')
+			$('#enemy img').attr('src', 'img/models/index-card.png')
 			break
 		case 'garden-scissors':
 			enemy = new Battledome.Robot.GardenScissors()
-			$('#enemy-selection img').attr('src', '/img/models/garden-scissors.png')
-			$('#enemy img').attr('src', '/img/models/garden-scissors.png')
+			$('#enemy-selection img').attr('src', 'img/models/garden-scissors.png')
+			$('#enemy img').attr('src', 'img/models/garden-scissors.png')
 			break
 		case 'craft-scissors':
 			enemy = new Battledome.Robot.CraftScissors()
-			$('#enemy-selection img').attr('src', '/img/models/craft-scissors.png')
-			$('#enemy img').attr('src', '/img/models/craft-scissors.png')
+			$('#enemy-selection img').attr('src', 'img/models/craft-scissors.png')
+			$('#enemy img').attr('src', 'img/models/craft-scissors.png')
 			break
 		case 'random':
 			enemy = {}
-			$('#enemy-selection img').attr('src', '/img/question-mark.png')
+			$('#enemy-selection img').attr('src', 'img/question-mark.png')
 			break
 	}
 	loadEnemyStats()
