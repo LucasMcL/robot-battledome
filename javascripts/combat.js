@@ -143,22 +143,22 @@ function generateEnemy() {
 	// Assign name, load picture into battlefield
 	switch(enemy.model) {
 		case 'Boulder':
-			$('#enemy img').attr('src', "..img/models/boulder.png")
+			$('#enemy img').attr('src', "../img/models/boulder.png")
 			break
 		case 'Pebble':
-			$('#enemy img').attr('src', "..img/models/pebble.png")
+			$('#enemy img').attr('src', "../img/models/pebble.png")
 			break
 		case 'Scroll':
-			$('#enemy img').attr('src', "..img/models/scroll.png")
+			$('#enemy img').attr('src', "../img/models/scroll.png")
 			break
 		case 'Index Card':
-			$('#enemy img').attr('src', "..img/models/index-card.png")
+			$('#enemy img').attr('src', "../img/models/index-card.png")
 			break
 		case 'Garden Scissors':
-			$('#enemy img').attr('src', "..img/models/garden-scissors.png")
+			$('#enemy img').attr('src', "../img/models/garden-scissors.png")
 			break
 		case 'Craft Scissors':
-			$('#enemy img').attr('src', "..img/models/craft-scissors.png")
+			$('#enemy img').attr('src', "../img/models/craft-scissors.png")
 			break
 	}
 	// Assign name based on type
